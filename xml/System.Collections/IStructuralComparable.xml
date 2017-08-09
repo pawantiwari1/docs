@@ -93,7 +93,7 @@
         <Parameter Name="comparer" Type="System.Collections.IComparer" />
       </Parameters>
       <Docs>
-        <param name="other">The object to compare with the current instance.</param>
+        <param name="other">To be added.</param>
         <param name="comparer">An object that compares members of the current collection object with the corresponding members of <c>other</c>.</param>
         <summary>Determines whether the current collection object precedes, occurs in the same position as, or follows another object in the sort order.</summary>
         <returns>An integer that indicates the relationship of the current collection object to <paramref name="other" />, as shown in the following table.  

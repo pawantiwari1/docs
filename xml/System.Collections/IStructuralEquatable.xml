@@ -92,7 +92,7 @@
         <Parameter Name="comparer" Type="System.Collections.IEqualityComparer" />
       </Parameters>
       <Docs>
-        <param name="other">The object to compare with the current instance.</param>
+        <param name="other">To be added.</param>
         <param name="comparer">An object that determines whether the current instance and <c>other</c> are equal.</param>
         <summary>Determines whether an object is structurally equal to the current instance.</summary>
         <returns>

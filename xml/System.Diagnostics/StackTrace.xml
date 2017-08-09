@@ -276,9 +276,8 @@
         <Parameter Name="needFileInfo" Type="System.Boolean" />
       </Parameters>
       <Docs>
-        <param name="e">The exception object from which to construct the stack trace.</param>
-        <param name="fNeedFileInfo">
-          <see langword="true" /> to capture the file name, line number, and column number; otherwise, <see langword="false" />.</param>
+        <param name="e">To be added.</param>
+        <param name="fNeedFileInfo">To be added.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Diagnostics.StackTrace" /> class, using the provided exception object and optionally capturing source information.</summary>
         <remarks>
           <format type="text/markdown"><![CDATA[  

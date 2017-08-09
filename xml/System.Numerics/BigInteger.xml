@@ -1115,9 +1115,9 @@
         <Parameter Name="remainder" Type="System.Numerics.BigInteger&amp;" RefType="out" />
       </Parameters>
       <Docs>
-        <param name="dividend">The value to be divided.</param>
-        <param name="divisor">The value to divide by.</param>
-        <param name="remainder">When this method returns, contains a <see cref="T:System.Numerics.BigInteger" /> value that represents the remainder from the division. This parameter is passed uninitialized.</param>
+        <param name="dividend">To be added.</param>
+        <param name="divisor">To be added.</param>
+        <param name="remainder">To be added.</param>
         <summary>Divides one <see cref="T:System.Numerics.BigInteger" /> value by another, returns the result, and returns the remainder in an output parameter.</summary>
         <returns>The quotient of the division.</returns>
         <remarks>
@@ -1421,8 +1421,8 @@
         <Parameter Name="right" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="left">The first value.</param>
-        <param name="right">The second value.</param>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
         <summary>Finds the greatest common divisor of two <see cref="T:System.Numerics.BigInteger" /> values.</summary>
         <returns>The greatest common divisor of <paramref name="left" /> and <paramref name="right" />.</returns>
         <remarks>
@@ -2155,8 +2155,8 @@ value Mod 2 = 0
         <Parameter Name="right" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="left">The first value to add.</param>
-        <param name="right">The second value to add.</param>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
         <summary>Adds the values of two specified <see cref="T:System.Numerics.BigInteger" /> objects.</summary>
         <returns>The sum of <paramref name="left" /> and <paramref name="right" />.</returns>
         <remarks>
@@ -2364,8 +2364,8 @@ value Mod 2 = 0
         <Parameter Name="divisor" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="dividend">The value to be divided.</param>
-        <param name="divisor">The value to divide by.</param>
+        <param name="dividend">To be added.</param>
+        <param name="divisor">To be added.</param>
         <summary>Divides a specified <see cref="T:System.Numerics.BigInteger" /> value by another specified <see cref="T:System.Numerics.BigInteger" /> value by using integer division.</summary>
         <returns>The integral result of the division.</returns>
         <remarks>
@@ -2523,8 +2523,8 @@ value Mod 2 = 0
         <Parameter Name="right" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="left">The first value to compare.</param>
-        <param name="right">The second value to compare.</param>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
         <summary>Returns a value that indicates whether the values of two <see cref="T:System.Numerics.BigInteger" /> objects are equal.</summary>
         <returns>
           <see langword="true" /> if the <paramref name="left" /> and <paramref name="right" /> parameters have the same value; otherwise, <see langword="false" />.</returns>
@@ -2781,15 +2781,6 @@ value Mod 2 = 0
         <param name="value">The value to convert to a <see cref="T:System.Numerics.BigInteger" />.</param>
         <summary>Defines an explicit conversion of a <see cref="T:System.Double" /> value to a <see cref="T:System.Numerics.BigInteger" /> value.</summary>
         <returns>An object that contains the value of the <paramref name="value" /> parameter.</returns>
-        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is <see cref="F:System.Double.NaN" />.  
-  
- -or-  
-  
- The value of <paramref name="value" /> is <see cref="F:System.Double.PositiveInfinity" />.
-  
- -or-  
-  
- The value of <paramref name="value" /> is <see cref="F:System.Double.NegativeInfinity" />.</exception>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -2809,6 +2800,15 @@ value Mod 2 = 0
 
  ]]></format>
         </remarks>
+        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is <see cref="F:System.Double.NaN" />.  
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is <see cref="F:System.Double.PositiveInfinity" />.
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is <see cref="F:System.Double.NegativeInfinity" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -2840,11 +2840,6 @@ value Mod 2 = 0
         <param name="value">The value to convert to a <see cref="T:System.Byte" />.</param>
         <summary>Defines an explicit conversion of a <see cref="T:System.Numerics.BigInteger" /> object to an unsigned byte value.</summary>
         <returns>An object that contains the value of the <paramref name="value" /> parameter.</returns>
-        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.Byte.MinValue" />.  
-  
- -or-  
-  
- The value of <paramref name="value" /> is greater than <see cref="F:System.Byte.MaxValue" />.</exception>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -2861,6 +2856,11 @@ value Mod 2 = 0
 
  ]]></format>
         </remarks>
+        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.Byte.MinValue" />.  
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is greater than <see cref="F:System.Byte.MaxValue" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -2892,11 +2892,6 @@ value Mod 2 = 0
         <param name="value">The value to convert to a <see cref="T:System.Decimal" />.</param>
         <summary>Defines an explicit conversion of a <see cref="T:System.Numerics.BigInteger" /> object to a <see cref="T:System.Decimal" /> value.</summary>
         <returns>An object that contains the value of the <paramref name="value" /> parameter.</returns>
-        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.Decimal.MinValue" />.  
-  
- -or-  
-  
- The value of <paramref name="value" /> is greater than <see cref="F:System.Decimal.MaxValue" />.</exception>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -2913,6 +2908,11 @@ value Mod 2 = 0
 
  ]]></format>
         </remarks>
+        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.Decimal.MinValue" />.  
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is greater than <see cref="F:System.Decimal.MaxValue" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -3003,11 +3003,6 @@ value Mod 2 = 0
         <param name="value">The value to convert to a 16-bit signed integer.</param>
         <summary>Defines an explicit conversion of a <see cref="T:System.Numerics.BigInteger" /> object to a 16-bit signed integer value.</summary>
         <returns>An object that contains the value of the <paramref name="value" /> parameter.</returns>
-        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.Int16.MinValue" />.  
-  
- -or-  
-  
- The value of <paramref name="value" /> is greater than <see cref="F:System.Int16.MaxValue" />.</exception>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3024,6 +3019,11 @@ value Mod 2 = 0
 
  ]]></format>
         </remarks>
+        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.Int16.MinValue" />.  
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is greater than <see cref="F:System.Int16.MaxValue" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -3060,11 +3060,6 @@ value Mod 2 = 0
         <param name="value">The value to convert to a 32-bit signed integer.</param>
         <summary>Defines an explicit conversion of a <see cref="T:System.Numerics.BigInteger" /> object to a 32-bit signed integer value.</summary>
         <returns>An object that contains the value of the <paramref name="value" /> parameter.</returns>
-        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.Int32.MinValue" />.  
-  
- -or-  
-  
- The value of <paramref name="value" /> is greater than <see cref="F:System.Int32.MaxValue" />.</exception>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3081,6 +3076,11 @@ value Mod 2 = 0
 
  ]]></format>
         </remarks>
+        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.Int32.MinValue" />.  
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is greater than <see cref="F:System.Int32.MaxValue" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -3117,11 +3117,6 @@ value Mod 2 = 0
         <param name="value">The value to convert to a 64-bit signed integer.</param>
         <summary>Defines an explicit conversion of a <see cref="T:System.Numerics.BigInteger" /> object to a 64-bit signed integer value.</summary>
         <returns>An object that contains the value of the <paramref name="value" /> parameter.</returns>
-        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.Int64.MinValue" />.  
-  
- -or-  
-  
- The value of <paramref name="value" /> is greater than <see cref="F:System.Int64.MaxValue" />.</exception>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3138,6 +3133,11 @@ value Mod 2 = 0
 
  ]]></format>
         </remarks>
+        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.Int64.MinValue" />.  
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is greater than <see cref="F:System.Int64.MaxValue" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -3176,11 +3176,6 @@ value Mod 2 = 0
   
  This API is not CLS-compliant. The compliant alternative is <see cref="T:System.Int16" />.</summary>
         <returns>An object that contains the value of the <paramref name="value" /> parameter.</returns>
-        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.SByte.MinValue" />.  
-  
- -or-  
-  
- The value of <paramref name="value" /> is greater than <see cref="F:System.SByte.MaxValue" />.</exception>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3197,6 +3192,11 @@ value Mod 2 = 0
 
  ]]></format>
         </remarks>
+        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.SByte.MinValue" />.  
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is greater than <see cref="F:System.SByte.MaxValue" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -3289,11 +3289,6 @@ value Mod 2 = 0
   
  This API is not CLS-compliant. The compliant alternative is <see cref="T:System.Int32" />.</summary>
         <returns>An object that contains the value of the <paramref name="value" /> parameter.</returns>
-        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.UInt16.MinValue" />.  
-  
- -or-  
-  
- The value of <paramref name="value" /> is greater than <see cref="F:System.UInt16.MaxValue" />.</exception>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3310,6 +3305,11 @@ value Mod 2 = 0
 
  ]]></format>
         </remarks>
+        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.UInt16.MinValue" />.  
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is greater than <see cref="F:System.UInt16.MaxValue" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -3348,11 +3348,6 @@ value Mod 2 = 0
   
  This API is not CLS-compliant. The compliant alternative is <see cref="T:System.Int64" />.</summary>
         <returns>An object that contains the value of the <paramref name="value" /> parameter.</returns>
-        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.UInt32.MinValue" />.  
-  
- -or-  
-  
- The value of <paramref name="value" /> is greater than <see cref="F:System.UInt32.MaxValue" />.</exception>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3369,6 +3364,11 @@ value Mod 2 = 0
 
  ]]></format>
         </remarks>
+        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.UInt32.MinValue" />.  
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is greater than <see cref="F:System.UInt32.MaxValue" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -3407,11 +3407,6 @@ value Mod 2 = 0
   
  This API is not CLS-compliant. The compliant alternative is <see cref="T:System.Double" />.</summary>
         <returns>An object that contains the value of the <paramref name="value" /> parameter.</returns>
-        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.UInt64.MinValue" />.  
-  
- -or-  
-  
- The value of <paramref name="value" /> is greater than <see cref="F:System.UInt64.MaxValue" />.</exception>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3428,6 +3423,11 @@ value Mod 2 = 0
 
  ]]></format>
         </remarks>
+        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is less than <see cref="F:System.UInt64.MinValue" />.  
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is greater than <see cref="F:System.UInt64.MaxValue" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_Explicit">
@@ -3459,15 +3459,6 @@ value Mod 2 = 0
         <param name="value">The value to convert to a <see cref="T:System.Numerics.BigInteger" />.</param>
         <summary>Defines an explicit conversion of a <see cref="T:System.Single" /> value to a <see cref="T:System.Numerics.BigInteger" /> value.</summary>
         <returns>An object that contains the value of the <paramref name="value" /> parameter.</returns>
-        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is <see cref="F:System.Single.NaN" />.  
-  
- -or-  
-  
- The value of <paramref name="value" /> is <see cref="F:System.Single.PositiveInfinity" />.
-  
- -or-  
-  
- The value of <paramref name="value" /> is <see cref="F:System.Single.NegativeInfinity" />.</exception>
         <remarks>
           <format type="text/markdown"><![CDATA[  
   
@@ -3487,6 +3478,15 @@ value Mod 2 = 0
 
  ]]></format>
         </remarks>
+        <exception cref="T:System.OverflowException">The value of <paramref name="value" /> is <see cref="F:System.Single.NaN" />.  
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is <see cref="F:System.Single.PositiveInfinity" />.
+  
+ -or-  
+  
+ The value of <paramref name="value" /> is <see cref="F:System.Single.NegativeInfinity" />.</exception>
       </Docs>
     </Member>
     <Member MemberName="op_GreaterThan">
@@ -3623,8 +3623,8 @@ value Mod 2 = 0
         <Parameter Name="right" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="left">The first value to compare.</param>
-        <param name="right">The second value to compare.</param>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
         <summary>Returns a value that indicates whether a <see cref="T:System.Numerics.BigInteger" /> value is greater than another <see cref="T:System.Numerics.BigInteger" /> value.</summary>
         <returns>
           <see langword="true" /> if <paramref name="left" /> is greater than <paramref name="right" />; otherwise, <see langword="false" />.</returns>
@@ -3887,8 +3887,8 @@ value Mod 2 = 0
         <Parameter Name="right" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="left">The first value to compare.</param>
-        <param name="right">The second value to compare.</param>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
         <summary>Returns a value that indicates whether a <see cref="T:System.Numerics.BigInteger" /> value is greater than or equal to another <see cref="T:System.Numerics.BigInteger" /> value.</summary>
         <returns>
           <see langword="true" /> if <paramref name="left" /> is greater than <paramref name="right" />; otherwise, <see langword="false" />.</returns>
@@ -4584,8 +4584,8 @@ value Mod 2 = 0
         <Parameter Name="right" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="left">The first value to compare.</param>
-        <param name="right">The second value to compare.</param>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
         <summary>Returns a value that indicates whether two <see cref="T:System.Numerics.BigInteger" /> objects have different values.</summary>
         <returns>
           <see langword="true" /> if <paramref name="left" /> and <paramref name="right" /> are not equal; otherwise, <see langword="false" />.</returns>
@@ -4906,8 +4906,8 @@ value Mod 2 = 0
         <Parameter Name="right" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="left">The first value to compare.</param>
-        <param name="right">The second value to compare.</param>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
         <summary>Returns a value that indicates whether a <see cref="T:System.Numerics.BigInteger" /> value is less than another <see cref="T:System.Numerics.BigInteger" /> value.</summary>
         <returns>
           <see langword="true" /> if <paramref name="left" /> is less than <paramref name="right" />; otherwise, <see langword="false" />.</returns>
@@ -5170,8 +5170,8 @@ value Mod 2 = 0
         <Parameter Name="right" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="left">The first value to compare.</param>
-        <param name="right">The second value to compare.</param>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
         <summary>Returns a value that indicates whether a <see cref="T:System.Numerics.BigInteger" /> value is less than or equal to another <see cref="T:System.Numerics.BigInteger" /> value.</summary>
         <returns>
           <see langword="true" /> if <paramref name="left" /> is less than or equal to <paramref name="right" />; otherwise, <see langword="false" />.</returns>
@@ -5332,8 +5332,8 @@ value Mod 2 = 0
         <Parameter Name="divisor" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="dividend">The value to be divided.</param>
-        <param name="divisor">The value to divide by.</param>
+        <param name="dividend">To be added.</param>
+        <param name="divisor">To be added.</param>
         <summary>Returns the remainder that results from division with two specified <see cref="T:System.Numerics.BigInteger" /> values.</summary>
         <returns>The remainder that results from the division.</returns>
         <remarks>
@@ -5387,8 +5387,8 @@ value Mod 2 = 0
         <Parameter Name="right" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="left">The first value to multiply.</param>
-        <param name="right">The second value to multiply.</param>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
         <summary>Multiplies two specified <see cref="T:System.Numerics.BigInteger" /> values.</summary>
         <returns>The product of <paramref name="left" /> and <paramref name="right" />.</returns>
         <remarks>
@@ -5533,8 +5533,8 @@ value Mod 2 = 0
         <Parameter Name="right" Type="System.Numerics.BigInteger" />
       </Parameters>
       <Docs>
-        <param name="left">The value to subtract from (the minuend).</param>
-        <param name="right">The value to subtract (the subtrahend).</param>
+        <param name="left">To be added.</param>
+        <param name="right">To be added.</param>
         <summary>Subtracts a <see cref="T:System.Numerics.BigInteger" /> value from another <see cref="T:System.Numerics.BigInteger" /> value.</summary>
         <returns>The result of subtracting <paramref name="right" /> from <paramref name="left" />.</returns>
         <remarks>
@@ -6088,8 +6088,8 @@ value Mod 2 = 0
         <Parameter Name="exponent" Type="System.Int32" />
       </Parameters>
       <Docs>
-        <param name="value">The number to raise to the <c>exponent</c> power.</param>
-        <param name="exponent">The exponent to raise <c>value</c> by.</param>
+        <param name="value">To be added.</param>
+        <param name="exponent">To be added.</param>
         <summary>Raises a <see cref="T:System.Numerics.BigInteger" /> value to the power of a specified value.</summary>
         <returns>The result of raising <paramref name="value" /> to the <paramref name="exponent" /> power.</returns>
         <remarks>

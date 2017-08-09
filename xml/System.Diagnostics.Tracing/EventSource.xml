@@ -2627,7 +2627,7 @@ class AnotherEventSource : EventSource {
       </Parameters>
       <Docs>
         <param name="eventId">An identifier that uniquely identifies this event within the <see cref="T:System.Diagnostics.Tracing.EventSource" />.</param>
-        <param name="relatedActivityId">The related activity identifier.</param>
+        <param name="relatedActivityId">To be added.</param>
         <param name="args">An array of objects that contain data about the event.</param>
         <summary>[Supported in the .NET Framework 4.5.1 and later versions]  
   
@@ -2698,7 +2698,7 @@ class AnotherEventSource : EventSource {
       </Parameters>
       <Docs>
         <param name="eventId">An identifier that uniquely identifies this event within the <see cref="T:System.Diagnostics.Tracing.EventSource" />.</param>
-        <param name="relatedActivityId">A pointer to the GUID of the related activity ID.</param>
+        <param name="relatedActivityId">To be added.</param>
         <param name="eventDataCount">The number of items in the <c>data</c> field.</param>
         <param name="data">A pointer to the first item in the event data field.</param>
         <summary>[Supported in the .NET Framework 4.5.1 and later versions]  

@@ -140,8 +140,8 @@
         <Parameter Name="iv" Type="System.Byte[]" />
       </Parameters>
       <Docs>
-        <param name="key">The secret key to use for the symmetric algorithm.</param>
-        <param name="iv">The initialization vector to use for the symmetric algorithm.</param>
+        <param name="key">To be added.</param>
+        <param name="iv">To be added.</param>
         <summary>Creates a symmetric decryptor object using the specified key and initialization vector (IV).</summary>
         <returns>A symmetric decryptor object.</returns>
         <remarks>
@@ -215,8 +215,8 @@
         <Parameter Name="iv" Type="System.Byte[]" />
       </Parameters>
       <Docs>
-        <param name="key">The secret key to use for the symmetric algorithm.</param>
-        <param name="iv">The initialization vector to use for the symmetric algorithm.</param>
+        <param name="key">To be added.</param>
+        <param name="iv">To be added.</param>
         <summary>Creates a symmetric encryptor object using the specified key and initialization vector (IV).</summary>
         <returns>A symmetric encryptor object.</returns>
         <remarks>
