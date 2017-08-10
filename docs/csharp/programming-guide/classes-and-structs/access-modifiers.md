@@ -44,7 +44,8 @@ All types and type members have an accessibility level, which controls whether t
  The type or member can be accessed only by code in the same class or struct.  
   
  [protected](../../../csharp/language-reference/keywords/protected.md)  
- The type or member can be accessed only by code in the same class or struct, or in a class that is derived from that class.  
+ The type or member can be accessed only by code in the same class or struct, or in a class that is derived from that class. 
+ The protected access modifier cannot be applied to classes and interfaces. Methods and fields in a interface can't be declared protected
   
  [internal](../../../csharp/language-reference/keywords/internal.md)  
  The type or member can be accessed by any code in the same assembly, but not from another assembly.  
